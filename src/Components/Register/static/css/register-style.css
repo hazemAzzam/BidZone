@@ -11,7 +11,7 @@
   height: 90%;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 4.5rem;
 }
 .register .container .left {
   background: var(--c1);
@@ -55,6 +55,7 @@
   min-height: 150px;
   display: flex;
   box-shadow: -5px 0 50px -5px rgba(0, 0, 0, 0.3); /* Default left box shadow */
+
   border-radius: 25px;
   background-size: cover;
   background-position: center;
@@ -92,7 +93,7 @@
   .register .container {
     flex-direction: column;
     height: 90%;
-    width: 100%;
+    width: 90%;
   }
   .register .container .left {
     order: 1;
